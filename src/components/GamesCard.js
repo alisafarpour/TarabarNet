@@ -31,6 +31,7 @@ export const GamesCard = (props) => {
         <Grid item container justifyContent={'center'} alignItems={'center'} sx={{
             bgcolor: '#fff', p: 2, borderRadius: 2,
             maxWidth: '500px',
+            overflow:'hidden',
             boxShadow: 'rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px',
             transition: 'all 0.2s ease-in-out',
             '&:hover': {

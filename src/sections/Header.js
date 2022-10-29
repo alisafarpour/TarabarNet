@@ -3,7 +3,7 @@ import * as React from "react";
 import {HeaderButton} from "../components/buttons/HeaderButton";
 import {HEADER_DATA} from "../../data/header-data";
 import Image from "next/image";
-import logo from '../../public/logo48.png';
+import logo from '../../public/icons/logo48.png';
 import useMediaQuery from "@mui/material/useMediaQuery";
 import theme from "../../themes/globalTheme";
 

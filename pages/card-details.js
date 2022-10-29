@@ -16,7 +16,7 @@ const cardDetails = () => {
     return (
         <Grid container justifyContent={'center'} alignItems={'flex-start'} sx={{minHeight: '80vh', mt: 10}}>
             <Grid item container justifyContent={pageMatch ? 'space-between' : 'center'} alignItems={'center'}
-                  sx={{bgcolor: '#fff', p: 4, maxWidth: pageMatch ? 1000 : 'auto', borderRadius: 4, m: 2}}>
+                  sx={{bgcolor: '#fff', p: 4, maxWidth: pageMatch ? 1100 : 'auto', borderRadius: 4, m: 2}}>
                 <Grid container justifyContent={'center'} alignItems={'center'}
                       sx={{borderRadius: 2, overflow: 'hidden', maxWidth: 460, cursor: 'pointer'}}
                 >

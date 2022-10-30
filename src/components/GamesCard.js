@@ -44,7 +44,7 @@ export const GamesCard = (props) => {
         >
             <Grid container justifyContent={'space-between'} alignItems={'center'} sx={{mb: 1, maxWidth: 460}}>
 
-                <Grid container justifyContent={'center'} alignItems={'center'}
+                <Grid container justifyContent={'center'} alignItems={'center'} cy={props.value}
                       sx={{
                           color: 'alert', border: '1px solid #c3c3c3', height: 32, width: 32, borderRadius: 2,
                           transition: 'all 0.2s ease-in-out',
@@ -71,7 +71,7 @@ export const GamesCard = (props) => {
                       sx={{borderRadius: 2, overflow: 'hidden', maxWidth: 460, cursor: 'pointer',}}
                       onClick={saveSelectedCardData}
                 >
-                    <Image src={props.img} style={{objectFit: 'cover'}} width="460px" height="215px" alt={'logo'}/>
+                    <Image src={props.img} style={{objectFit: 'cover'}} width="460px" height="215px" alt={`${props.value}`}/>
                 </Grid>
             </Link>
         </Grid>
